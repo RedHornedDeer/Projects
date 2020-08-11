@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8">
+		<style>
+			body{
+				background-color: rgb(180, 192, 214);
+				color: black;
+				font-family: "cookie", cursive;
+			}
+			#contact-info{
+				text-align: bottom;
+				text-align: center;
+				font-family: serif;
+			}
+			.contact-info{
+				text-align: bottom;
+				text-align: center;
+			}
+			#logo{
+				background-color: rgb(180, 192, 214);
+			}
+			.OoS{
+				color: red;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="logo" height="300" alt = "Twin Wicks Logo" src="Twin-Wicks-Logo3.png"></img>
+		<h2>Candles</h2>
+		<h3>Designs</h3>
+		<ul>
+			<li>Glass Candle Jars</li>
+			<ul>
+				<li class="OoS">Out of Stock</li>
+			</ul>
+			<li>Plastic Candle Jars</li>
+			<ul>
+				<li>Dark Purple</li>
+				<li>Light Purple</li>
+			</ul>
+			<li>Metal Candle Jars</li>
+			<ul>
+				<li>Dark Purple</li>
+				<li>White <strong>Order Soon!</strong></li>	
+			</ul>
+		</ul>	
+		<h3 class="contact-info">Contact Information:</h3>
+		<p id="contact-info">wicks.twin@gmail.com</p>
+		<p id="contact-info">+1 (603) 465-3687</p>
+	</body>
+</html>
